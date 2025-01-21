@@ -1,6 +1,45 @@
 body {
     font-family: 'Arial', sans-serif;
 }
+/* Center the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-evenly; /* Align navbar items horizontally */
+    align-items: center; /* Align navbar items vertically */
+    width: 100%; /* Ensure the navbar takes full width */
+}
+
+/* Optional: Center the navbar-collapse if it's in the collapsed state */
+.navbar-collapse {
+    text-align: center; /* Center the collapsed navbar items */
+}
+
+/* Optional: Style for navbar items */
+.navbar-nav {
+    display: flex;
+     /* Center navbar items */
+    margin: 0; /* Remove default margin */
+    padding: 20px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+a{
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+/* Optional: Remove the left margin of the navbar-toggler */
+.navbar-toggler {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .navbar-brand img {
     max-height: 50px;
