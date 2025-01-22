@@ -22,9 +22,9 @@ body {
     padding: 20px;
 }
 
-.nav-item {
-    display: flex;
-    justify-content: space-evenly;
+.nav-link {
+    color: blue;
+    font-size: large;
 
 }
 a{
@@ -32,7 +32,11 @@ a{
     padding: 20px;
 }
 
-
+.nav-item i{
+    border-width: 2px;
+    margin-top: 30px;
+    font-size: large;
+}
 
 /* Optional: Remove the left margin of the navbar-toggler */
 .navbar-toggler {
@@ -58,3 +62,10 @@ footer p {
     margin: 0;
     font-size: 0.9rem;
 }
+
+
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
