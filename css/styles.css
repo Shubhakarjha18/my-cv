@@ -1,5 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
+    background-color: #f6b619;
 }
 /* Center the navbar */
 .navbar {
@@ -23,7 +24,7 @@ body {
 }
 
 .nav-link {
-    color: blue;
+    color: #212529;
     font-size: large;
 
 }
@@ -68,4 +69,18 @@ footer p {
   .dark-mode {
     background-color: black;
     color: white;
+  }
+
+
+  #profile-img:hover{
+    
+        width: 300px;
+        height: 300px;
+        transition: width 2s height 2s;
+        
+     
+  }
+
+  img.rounded-circle{
+    background-color: #f6b619;
   }
