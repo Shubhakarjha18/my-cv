@@ -1,86 +1,141 @@
+/* General body styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f6b619;
+  
+
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+
+
+
+
+    /* background-color: gray; */
+    /* background-color: #f6b619; */
+    transition: background-color 0.3s, color 0.3s;
 }
-/* Center the navbar */
+
+/* Navbar styles */
 .navbar {
     display: flex;
-    justify-content: space-evenly; /* Align navbar items horizontally */
-    align-items: center; /* Align navbar items vertically */
-    width: 100%; /* Ensure the navbar takes full width */
+    justify-content: space-evenly; /* Center navbar items horizontally */
+    align-items: center; /* Center navbar items vertically */
+    width: 100%; /* Full width */
 }
 
-/* Optional: Center the navbar-collapse if it's in the collapsed state */
 .navbar-collapse {
-    text-align: center; /* Center the collapsed navbar items */
+    text-align: center; /* Center collapsed navbar items */
 }
 
-/* Optional: Style for navbar items */
 .navbar-nav {
     display: flex;
-     /* Center navbar items */
-    margin: 0; /* Remove default margin */
+    margin: 0;
     padding: 20px;
 }
 
 .nav-link {
     color: #212529;
     font-size: large;
-
+    margin: 0 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s, color 0.3s;
+    border: 1px solid transparent;
+    cursor: pointer;
 }
-a{
-    margin: 20px;
-    padding: 20px;
+
+.nav-link:hover {
+    background-color: #e2e6ea;
 }
 
-.nav-item i{
-    border-width: 2px;
-    margin-top: 30px;
+.nav-link.active {
+    background-color: #0d6efd;
+    color: white;
+    border: 1px solid #0d6efd;
+}
+
+/* Navbar icon */
+.nav-item i {
     font-size: large;
+    margin-top: 30px;
+    cursor: pointer;
 }
 
-/* Optional: Remove the left margin of the navbar-toggler */
-.navbar-toggler {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
+/* Navbar brand image */
 .navbar-brand img {
     max-height: 50px;
 }
 
-header h1 {
-    font-size: 2.5rem;
+/* Tab content visibility */
+.tab-content {
+    display: none;
 }
 
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+.tab-content.active {
+    display: block;
 }
 
-footer p {
-    margin: 0;
-    font-size: 0.9rem;
+/* Dark mode toggle icon */
+.fa-moon-o {
+    padding: 10px;
+    cursor: pointer;
 }
 
+/* Hover effect on profile image */
+#profile-img:hover {
+    width: 300px;
+    height: 300px;
+    transition: width 2s, height 2s;
+}
 
-  
-  .dark-mode {
-    background-color: black;
-    color: white;
-  }
-
-
-  #profile-img:hover{
-    
-        width: 300px;
-        height: 300px;
-        transition: width 2s height 2s;
-        
-     
-  }
-
-  img.rounded-circle{
+/* Profile image styles */
+img.rounded-circle {
     background-color: #f6b619;
-  }
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .nav-link {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .nav-link:hover {
+    background-color: #444;
+}
+
+.dark-mode .nav-link.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* Dark mode text and background changes for sections */
+.dark-mode .tab-content {
+    background-color: #121212;
+    color: white;
+}
+
+/* Custom styles for navbar links */
+.nav-tabs .nav-link {
+    border-radius: 10px;
+    margin-right: 5px;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+    border: 1px solid transparent;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #e2e6ea;
+    color: #000;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #0d6efd;
+    color: white;
+    border: 1px solid #0d6efd;
+}
