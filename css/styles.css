@@ -54,7 +54,7 @@ body {
 }
 
 /* Navbar icon */
-.nav-item i {
+.nav-item  {
     font-size: large;
     margin-top: 30px;
     cursor: pointer;

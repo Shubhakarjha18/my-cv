@@ -101,6 +101,7 @@
 
     #main-content {
       display: none;
+      padding-top: 30px;
     }
 
     .tab-content {
@@ -111,54 +112,58 @@
       display: block;
     }
 
-   /* Styling for the navigation list items */
-/* Styling for the navigation list items */
-.navlist {
-  border: 5px solid #ff6600;           /* Orange border */
-  border-radius: 25px;                 /* Rounded corners */
-  padding: 10px 20px;                  /* Space inside the border */
-  margin: 10px 0;                      /* Space between items */
-  text-align: center;
-  background-color: #ff6600;           /* Orange background */
-  color: white;                        /* White text color */
-  list-style: none;                    /* Remove default bullet */
-  transition: all 0.3s ease;           /* Smooth transition for hover effects */
-}
+    .navlist {
+      border: 5px solid #ff6600;
+      border-radius: 25px;
+      padding: 10px 20px;
+      margin: 10px 0;
+      text-align: center;
+      background-color: #ff6600;
+      color: white;
+      list-style: none;
+      transition: all 0.3s ease;
+    }
 
-/* Hover effect for each list item */
-.navlist:hover {
-  background-color: #ff4500;           /* Darker orange on hover */
-  color: white;                        /* White text on hover */
-  cursor: pointer;
-}
+    .navlist:hover {
+      background-color: #ff4500;
+      color: white;
+      cursor: pointer;
+    }
 
-/* Active state for the clicked tab */
-.navlist.active {
-  background-color: #e64a19;           /* Darker orange when active */
-  color: white;                        /* White text for active tab */
-}
+    .navlist.active {
+      background-color: #e64a19;
+      color: white;
+    }
 
-/* For adding colors on the navbar items */
-.nav-link {
-  padding: 10px 20px;
-  font-size: 1.2rem;
-  color: #007bff;                      /* Blue text */
-  border-radius: 25px;
-  transition: background-color 0.3s ease;
-}
+    .nav-link {
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      color: #007bff;
+      border-radius: 25px;
+      transition: background-color 0.3s ease;
+    }
 
-.nav-link:hover {
-  background-color: #0056b3;           /* Darker blue on hover */
-  color: white;                        /* White text on hover */
-}
+    .nav-link:hover {
+      background-color: #0056b3;
+      color: white;
+    }
 
-/* Active navbar link */
-.nav-link.active {
-  background-color: #004085;           /* Even darker blue for active */
-  color: white;
-}
+    .nav-link.active {
+      background-color: #004085;
+      color: white;
+    }
 
+    .card-style {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+      padding: 30px;
+      background: white;
+    }
 
+    footer {
+      margin-top: 50px;
+      font-weight: bold;
+    }
 
   </style>
 </head>
@@ -174,104 +179,132 @@
         <ul class="nav-list">
             <div class="row">
                 <div class="col-md-6">
-                    <li class="navlist" onclick="startSite('home')">Home</li>
-                </div>
-                <div class="col-md-6">
                     <li class="navlist" onclick="startSite('about')">About</li>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-md-6">
                     <li class="navlist" onclick="startSite('education')">Education</li>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-md-6">
                     <li class="navlist" onclick="startSite('experience')">Experience</li>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 d-flex justify-content-center">
-                    <li class="navlist " onclick="startSite('contact')">Contact</li>
+                <div class="col-md-6">
+                    <li class="navlist" onclick="startSite('contact')">Contact</li>
                 </div>
             </div>
         </ul>
-        
       </div>
     </div>
   </div>
 
-  <div class="container text-center p-3" id="main-content">
+  <div class="container text-center" id="main-content">
     <!-- nav section start -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-        <div class="collapse navbar-collapse justify-content-end">
-          <ul class="nav nav-tabs justify-content-center">
-            <li class="nav-item"><a class="nav-link active" onclick="showTab('home'); setActiveTab(this)">Home</a></li>
-            <li class="nav-item"><a class="nav-link" onclick="showTab('about'); setActiveTab(this)">About</a></li>
-            <li class="nav-item"><a class="nav-link" onclick="showTab('education'); setActiveTab(this)">Education</a></li>
-            <li class="nav-item"><a class="nav-link" onclick="showTab('experience'); setActiveTab(this)">Experience</a></li>
-            <li class="nav-item"><a class="nav-link" onclick="showTab('contact'); setActiveTab(this)">Contact</a></li>
-            <li class="nav-item"><i class="fa fa-moon-o" onclick="myFunction()"></i></li>
-          </ul>
-        </div>
+<!-- nav section start -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <!-- <a class="navbar-brand fw-bold" href="#">My CV</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#cvNavbar" aria-controls="cvNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse justify-content-end" id="cvNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item" style="margin-right: 20px;"><a class="nav-link active" onclick="showTab('about'); setActiveTab(this)">About</a></li>
+          <li class="nav-item" style="margin-right: 20px;"><a class="nav-link" onclick="showTab('education'); setActiveTab(this)">Education</a></li>
+          <li class="nav-item" style="margin-right: 20px;"><a class="nav-link" onclick="showTab('experience'); setActiveTab(this)">Experience</a></li>
+          <li class="nav-item" style="margin-right: 20px;"><a class="nav-link" onclick="showTab('contact'); setActiveTab(this)">Contact</a></li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+  
 
-    <!-- Sections -->
-    <section id="home" class="py-5 text-center tab-content active">
-      <h2>Welcome to My CV</h2>
-    </section>
-
-    <section id="about" class="tab-content py-5">
-      <div class="container-sm-12">
-        <div class="row">
-          <div class="col-sm-4">
-            <img src="assets/image.jpg" class="rounded-circle mb-3" alt="Profile" width="250" height="250" style="object-fit:cover;">
-          </div>
-          <div class="col-sm-8">
-            <h1 class="display-4">Shubhakar Jha</h1>
-            <p class="lead">Web Developer | Passionate Coder | B.Tech in Computer Science</p>
-            <p class="text-center">I am a passionate web developer with expertise in modern web technologies.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="education" class="py-5 tab-content">
+    <!-- About -->
+    <section id="about" class="tab-content active py-5">
       <div class="container">
-        <h2 class="text-center">Education</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <ul class="list-unstyled"><li><strong>SLC</strong> - B.H.S.E.B.S</li><li>Passed Year: 2015</li></ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-unstyled"><li><strong>Intermediate</strong> - NASA International College</li><li>Passed Year: 2017-2018</li><li>Specialization: Science</li></ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-unstyled"><li><strong>B.Tech in Computer Science</strong> - JNTUH Hyderabad</li><li>Passed Year: 2019-2023</li><li>Specialization: Web Development and Software Engineering</li></ul>
+        <div class="card-style">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="assets/image.jpg" class="rounded-circle" alt="Profile" width="100%" height="250" style="object-fit: cover;">
+            </div>
+            <div class="col-md-8 text-start">
+              <h1>Shubhakar Jha</h1>
+              <p class="lead">Web Developer | Passionate Coder | B.Tech in Computer Science</p>
+              <p>I am a passionate web developer with expertise in modern web technologies. I love crafting interactive websites and building performant applications that make an impact.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="experience" class="py-5 tab-content">
+    <!-- Education -->
+    <section id="education" class="tab-content py-5">
       <div class="container">
-        <h2 class="text-center">Experience</h2>
-        <div class="row">
-          <div class="col-md-6"><div class="card"><div class="card-body"><h5 class="card-title">Laravel Developer Intern</h5><li>Company : 101 INFOTECH</li><li>Duration: 3 months</li><p>Built and optimized websites using Laravel and PHP.</p></div></div></div>
-          <div class="col-md-6"><div class="card"><div class="card-body"><h5 class="card-title">Junior Laravel Developer</h5><li>Company : TECHART TREKKIES</li><li>Duration: Currently Working</li><p>Worked on dynamic web apps focused on UX and backend performance.</p></div></div></div>
+        <div class="card-style">
+          <h2 class="text-center mb-4">Education</h2>
+          <div class="row text-start">
+            <div class="col-md-4">
+              <h5>SLC - B.H.S.E.B.S</h5>
+              <p>Passed Year: 2015</p>
+            </div>
+            <div class="col-md-4">
+              <h5>Intermediate - NASA International College</h5>
+              <p>Passed Year: 2017-2018<br>Specialization: Science</p>
+            </div>
+            <div class="col-md-4">
+              <h5>B.Tech in Computer Science - JNTUH Hyderabad</h5>
+              <p>Passed Year: 2019-2023<br>Specialization: Web Development and Software Engineering</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="py-5 tab-content">
+    <!-- Experience -->
+    <section id="experience" class="tab-content py-5">
       <div class="container">
-        <h2 class="text-center">Contact Me</h2>
-        <form>
-          <div class="mb-3"><label for="name" class="form-label">Full Name</label><input type="text" class="form-control" id="name" placeholder="Your Name"></div>
-          <div class="mb-3"><label for="email" class="form-label">Email address</label><input type="email" class="form-control" id="email" placeholder="name@example.com"></div>
-          <div class="mb-3"><label for="message" class="form-label">Message</label><textarea class="form-control" id="message" rows="3"></textarea></div>
-          <button type="submit" class="btn btn-primary">Send Message</button>
-        </form>
+        <div class="card-style">
+          <h2 class="text-center mb-4">Experience</h2>
+          <div class="row text-start">
+            <div class="col-md-6">
+              <h5>Laravel Developer Intern</h5>
+              <p><strong>Company:</strong> 101 INFOTECH</p>
+              <p><strong>Duration:</strong> 3 months</p>
+              <p>Built and optimized websites using Laravel and PHP.</p>
+            </div>
+            <div class="col-md-6">
+              <h5>Junior Laravel Developer</h5>
+              <p><strong>Company:</strong> TECHART TREKKIES</p>
+              <p><strong>Duration:</strong> Currently Working</p>
+              <p>Worked on dynamic web apps focused on UX and backend performance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="tab-content py-5">
+      <div class="container">
+        <div class="card-style">
+          <h2 class="text-center mb-4">Contact Me</h2>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
       </div>
     </section>
 
@@ -287,8 +320,6 @@
 
     flipContainer.addEventListener('click', () => {
       flipContainer.classList.add('flipped');
-
-      // Delay fade-in until flip completes
       setTimeout(() => {
         message.classList.add('fade-in');
         navItems.forEach((item, index) => {
@@ -296,7 +327,7 @@
             item.classList.add('slide-up');
           }, index * 800);
         });
-      }, 800); // 0.8s = flip transition duration
+      }, 800);
     });
 
     function showTab(tabId) {
