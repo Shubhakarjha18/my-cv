@@ -10,7 +10,9 @@
     body, html {
       margin: 0;
       height: 100%;
-      background: linear-gradient(to right, #1f4037, #99f2c8);
+background: #020208;
+background: linear-gradient(90deg, rgba(2, 2, 8, 1) 0%, rgba(1, 1, 18, 1) 100%, rgba(0, 212, 255, 1) 100%);
+     /*  background: linear-gradient(to right, #1f4037, #99f2c8); */
       overflow: hidden;
     }
 
@@ -186,12 +188,13 @@
 </head>
 <body>
 
-  <div class="flip-container" id="intro-card">
-    <div class="flipper">
+  <div class="flip-container" id="intro-card" >
+    <div class="flipper" >
       <div class="front">
         <img src=" assets/profile.jpg " alt="Shubhakar Jha">
       </div>
-      <div class="back text-center">
+      <div class="back text-center" style="background: #382f2f;
+background: linear-gradient(90deg, rgba(56, 47, 47, 1) 0%, rgba(0, 0, 0, 1) 100%, rgba(237, 221, 83, 1) 100%);">
         <div class="message"><p class="text-danger fs-3 fw-bolder">What do you want to know about me?</p></div>
         <ul class="nav-list">
             <div class="row">
@@ -254,15 +257,16 @@
     <!-- About -->
     <section id="about" class="tab-content active py-5">
       <div class="container">
-        <div class="card-style">
+        <div class="card-style" style="background: #382f2f;
+background: linear-gradient(90deg, rgba(56, 47, 47, 1) 0%, rgba(0, 0, 0, 1) 100%, rgba(237, 221, 83, 1) 100%);">
           <div class="row">
             <div class="col-md-4">
-              <img src="assets/profile.jpg" class="rounded-circle" alt="Profile" width="100%" height="250" style="object-fit: cover;">
+              <img src="assets/image.jpg" class="rounded-circle text-white" alt="Profile" width="100%" height="250" style="object-fit: cover;">
             </div>
             <div class="col-md-8 text-start">
-              <h1>Shubhakar Jha</h1>
-              <p class="lead">Web Developer | Passionate Coder | B.Tech in Computer Science</p>
-              <p>I am a passionate web developer with expertise in modern web technologies. I love crafting interactive websites and building performant applications that make an impact.</p>
+              <h1 class="text-white">Shubhakar Jha</h1>
+              <p class="lead text-white">Web Developer | Passionate Coder | B.Tech in Computer Science</p>
+              <p class="text-white">I am a passionate web developer with expertise in modern web technologies. I love crafting interactive websites and building performant applications that make an impact.</p>
             </div>
           </div>
         </div>
@@ -272,20 +276,21 @@
     <!-- Education -->
     <section id="education" class="tab-content py-5">
       <div class="container">
-        <div class="card-style">
-          <h2 class="text-center mb-4">Education</h2>
+        <div class="card-style" style="background: #382f2f;
+background: linear-gradient(90deg, rgba(56, 47, 47, 1) 0%, rgba(0, 0, 0, 1) 100%, rgba(237, 221, 83, 1) 100%);">
+          <h2 class="text-center text-white mb-4">Education</h2>
           <div class="row text-start">
             <div class="col-md-4">
-              <h5>SLC - B.H.S.E.B.S</h5>
-              <p>Passed Year: 2015</p>
+              <h5 class="text-white">SLC - B.H.S.E.B.S</h5>
+              <p class="text-white">Passed Year: 2015</p>
             </div>
             <div class="col-md-4">
-              <h5>Intermediate - NASA International College</h5>
-              <p>Passed Year: 2017-2018<br>Specialization: Science</p>
+              <h5 class="text-white">Intermediate - NASA International College</h5>
+              <p class="text-white">Passed Year: 2017-2018<br>Specialization: Science</p>
             </div>
             <div class="col-md-4">
-              <h5>B.Tech in Computer Science - JNTUH Hyderabad</h5>
-              <p>Passed Year: 2019-2023<br>Specialization: Web Development and Software Engineering</p>
+              <h5 class="text-white">B.Tech in Computer Science - JNTUH Hyderabad</h5>
+              <p class="text-white">Passed Year: 2019-2023<br>Specialization: Web Development and Software Engineering</p>
             </div>
           </div>
         </div>
@@ -295,20 +300,21 @@
     <!-- Experience -->
     <section id="experience" class="tab-content py-5">
       <div class="container">
-        <div class="card-style">
-          <h2 class="text-center mb-4">Experience</h2>
+        <div class="card-style" style="background: #382f2f;
+background: linear-gradient(90deg, rgba(56, 47, 47, 1) 0%, rgba(0, 0, 0, 1) 100%, rgba(237, 221, 83, 1) 100%);">
+          <h2 class="text-center text-white mb-4">Experience</h2>
           <div class="row text-start">
             <div class="col-md-6">
-              <h5>Laravel Developer Intern</h5>
-              <p><strong>Company:</strong> 101 INFOTECH</p>
-              <p><strong>Duration:</strong> 3 months</p>
-              <p>Built and optimized websites using Laravel and PHP.</p>
+              <h5 class="text-white">Laravel Developer Intern</h5>
+              <p class="text-white"><strong>Company:</strong> 101 INFOTECH</p>
+              <p class="text-white"><strong>Duration:</strong> 3 months</p>
+              <p class="text-white">Built and optimized websites using Laravel and PHP.</p>
             </div>
             <div class="col-md-6">
-              <h5>Junior Laravel Developer</h5>
-              <p><strong>Company:</strong> TECHART TREKKIES</p>
-              <p><strong>Duration:</strong> Currently Working</p>
-              <p>Worked on dynamic web apps focused on UX and backend performance.</p>
+              <h5 class="text-white">Junior Laravel Developer</h5>
+              <p class="text-white"><strong>Company:</strong> TECHART TREKKIES</p>
+              <p class="text-white"><strong>Duration:</strong> Currently Working</p>
+              <p class="text-white">Worked on dynamic web apps focused on UX and backend performance.</p>
             </div>
           </div>
         </div>
@@ -318,22 +324,23 @@
     <!-- Contact -->
     <section id="contact" class="tab-content py-5">
       <div class="container">
-        <div class="card-style">
-          <h2 class="text-center mb-4">Contact Me</h2>
+        <div class="card-style" style="background: #382f2f;
+background: linear-gradient(90deg, rgba(56, 47, 47, 1) 0%, rgba(0, 0, 0, 1) 100%, rgba(237, 221, 83, 1) 100%);">
+          <h2 class="text-center text-white mb-4">Contact Me</h2>
           <form>
             <div class="mb-3">
-              <label for="name" class="form-label">Full Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Your Name">
+              <label for="name" class="form-label text-white">Full Name</label>
+              <input type="text" class="form-control text-white" id="name" placeholder="Your Name">
             </div>
             <div class="mb-3">
-              <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              <label for="email" class="form-label text-white">Email address</label>
+              <input type="email" class="form-control text-white" id="email" placeholder="name@example.com">
             </div>
             <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
+              <label for="message" class="form-label text-white">Message</label>
+              <textarea class="form-control text-white" id="message" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
+            <button type="submit" class="btn btn-lg btn-primary text-white">Send Message</button>
           </form>
         </div>
       </div>
