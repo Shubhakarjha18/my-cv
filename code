@@ -1,0 +1,2053 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR Logistics</title>
+    <meta name="title" content="SR Logistics">
+    <meta name="description"
+        content="SR Logistics is the flagship end-to-end logistics services providing agency of Group Innovative Investments based in Nepal for services such as domest">
+    <meta name="keywords"
+        content="SR Logistics, Logistics, air and ocean freight, air and ocean freight forwarding, air and sea freight forwarders, air and sea freight services, air and sea logistics, air cargo and logistics, air cargo container, air cargo forwarder, air cargo freight forwarder, air cargo logistics, air cargo logistics as, air container logistics, air forwarder, air forwarding, air freight & logistics, air freight and logistics, air freight and ocean freight, air freight forwarder, air freight forwarding services">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+
+
+    <style>
+        .grecaptcha-badge {
+            display: none !important;
+        }
+    </style>
+
+    <link rel="shortcut icon" href="{{ asset('assets/logo.png') }}" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="{{ asset('assets/main.css') }}">
+
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lc7UAscAAAAAAcT5Pl-MdBWEYLXBvLaKCBhW-D4"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
+
+
+    <script>
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6Lc7UAscAAAAAAcT5Pl-MdBWEYLXBvLaKCBhW-D4', {
+                action: 'submit'
+            }).then(function(token) {
+                document.getElementById("contact_token").value = token;
+                document.getElementById("token").value = token;
+            });
+        });
+    </script>
+
+    <script type="text/javascript" src="{{ asset('assets/modules.js') }}"></script>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-nav" data-offset="200">
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand" href="#"><img src="{{ asset('assets/logo.png') }}" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nnavbar"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger" id="hamburger-1">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </button>
+
+        <div class="collapse navbar-collapse mt-4 mt-md-0" id="nnavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link weblink page-scroll" href="#abt">About</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link weblink page-scroll" href="#ser">Services</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link weblink page-scroll" href="#con">Contact</a>
+                </li>
+                <!--<li class="nav-item ">-->
+                <!--    <a class="nav-link weblink page-scroll" href="#team">Team</a>-->
+                <!--</li>-->
+            </ul>
+            <div class="mt-3 mt-lg-0">
+                <button type="button" class="btn btn-main" data-toggle="modal" data-target="#quoteModal">Request a
+                    Quote</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="quoteModal" tabindex="-1" aria-labelledby="quoteModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable w7">
+            <div class="modal-content">
+                <button type="button" class="close btn-main" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&#10005;</span>
+                </button>
+
+<div class="modal fade" id="quoteModal" tabindex="-1" aria-labelledby="quoteModal" style="display: none;" inert>
+    <!-- Modal content -->
+    <button class="close btn-main" data-dismiss="modal">Close</button>
+</div>
+
+
+                <div class="modal-body" id="qoute">
+                    <form action="{{ route('quotation') }}" method="POST" class="form-type-2 form-row"
+                        enctype="multipart/form-data" name="quote_form" id="quote_form">
+
+
+
+                        @csrf
+                        <div class="col-12 mb-3">
+                            <h5 class="modal-title section-sub-title" id="quoteModal">Get Your Personalized Quotation
+                            </h5>
+                        </div>
+                        @if (old('form_type') === 'quote_form' && $errors->any())
+                            <div class="alert alert-danger">
+                                <ul>{!! implode('', $errors->all('<li style="color:red">:message</li>')) !!}</ul>
+                            </div>
+
+                            <script>
+                                $(document).ready(function() {
+                                    $('#quoteModal').modal('show');
+                                });
+                            </script>
+                        @endif
+
+                        <div class="form-label-group col-md-12">
+                            <select name="shipment_mode" class="form-control" id="quoteShipment" required
+                                style="height: 60px; padding: 17px 15px;">
+                                <option value="1" selected>Sea Cargo</option>
+                                <option value="0">Air Shipment</option>
+                            </select>
+                        </div>
+                        <div class="form-label-group col-md-12">
+                            <input type="text" name="load" id="quoteload" class="form-control"
+                                placeholder=" Loading" value="{{ old('load') }}">
+                            <label for="quoteload" id="c1">Port of Loading</label>
+                        </div>
+
+                        <div class="form-label-group col-md-12">
+                            <input type="text" name="port" id="quotePort" class="form-control"
+                                placeholder="Discharges" value="{{ old('port') }}">
+                            <label for="quotePort" id="c2">Port of Discharges</label>
+                        </div>
+
+                        <!-- sea -->
+                        <div class="form-label-group col-md-12 sea ">
+                            <input type="text" name="final_Destination" id="final_Destination"
+                                class="form-control" placeholder="Final Destination"
+                                value="{{ old('final_Destination') }}">
+                            <label for="final_Destination">Final Destination</label>
+                        </div>
+
+                        <div class="form-label-group col-md-6 sea ">
+                            <input type="text" name="container_type" id="quoteType" class="form-control"
+                                placeholder="Container Type" value="{{ old('container_type') }}">
+                            <label for="quoteType">Container Type</label>
+                        </div>
+
+                        <div class="form-label-group col-md-6 sea ">
+                            <input type="number" name="no_of_containers" id="quoteNumCont" class="form-control"
+                                placeholder="Number of Containers" value="{{ old('no_of_containers') }}">
+                            <label for="quoteNumCont">Number of Containers</label>
+                        </div>
+                        <!-- sea end -->
+
+
+                        <div class="form-label-group col-md-6">
+                            <input type="text" name="commodity" id="quoteCommodity" class="form-control"
+                                placeholder="Commodity" value="{{ old('commodity') }}">
+                            <label for="quoteCommodity">Commodity</label>
+                        </div>
+                        <div class="form-label-group col-md-6">
+                            <input type="text" name="cargo_weight" id="quoteWeight" class="form-control"
+                                placeholder="Cargo Weight" value="{{ old('cargo_weight') }}">
+                            <label for="quoteWeight">Cargo Weight</label>
+                        </div>
+
+                        <!-- air -->
+                        <div class="col-12 air d-none ">
+                            <div>Packet Details</div>
+                            <div class="row add-row no-gutters ">
+                                <div class="form-label-group col-4 col-md-2  mb-1">
+                                    <input type="number" name="packet[0][length]" id="l0"
+                                        class="form-control" placeholder="Length"
+                                        value="{{ old('packet[0][length]') }}">
+                                    <label for="">Length</label>
+                                </div>
+                                <div class=" form-label-group col-4 col-md-2 mb-1">
+                                    <input type="number" name="packet[0][breadth]" id="b0"
+                                        class="form-control" placeholder="Breadth"
+                                        value="{{ old('packet[0][breadth]') }}">
+                                    <label for="">Breadth</label>
+                                </div>
+                                <div class="form-label-group col-4 col-md-2 mb-1">
+                                    <input type="number" name="packet[0][height]" id="h0"
+                                        class="form-control" placeholder="Height"
+                                        value="{{ old('packet[0][height]') }}">
+                                    <label for="">Height</label>
+                                </div>
+                                <div class="form-label-group col-4 col-md-2 mb-1">
+                                    <select class="form-control" name="packet[0][unit]" id="u0"
+                                        style="height: 40px; padding: 3px 5px;" required>
+                                        <option value="mm">Millimeter</option>
+                                        <option value="cm" selected>Centimeter</option>
+                                        <option value="in">Inch</option>
+                                    </select>
+                                </div>
+                                <div class="form-label-group col-5 col-md-3 align-items-center">
+                                    <input type="number" name="packet[0][number]" id="p0"
+                                        class="form-control" placeholder="Number of Packets"
+                                        value="packets[0][number]">
+                                    <label for="">Number of Packets</label>
+                                </div>
+                            </div>
+                            <div id="packets"></div>
+                            <p><span id="error_div">Please Fill all the Empty Field(s)</span></p>
+                            <div class="btn btn-main" id="add-btn"> <i class="fa fa-plus"></i></div>
+                        </div>
+                        <!-- air end -->
+
+                        <div class="form-label-group col-md-6 d-flex align-items-center">
+                            <div for="quoteDG" style="width:200px">DG Cargo </div>
+                            <select class="form-control" name="dg_cargo" id="quoteDG"
+                                style="height: 60px; padding: 17px 15px;">
+                                <option value="">Choose</option>
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+                        <div class="form-label-group col-md-6">
+                            <input type="file" class="msdsfile d-none" name="msdf" id="hiddenBtn">
+                            <label for="hiddenBtn" class="form-control choose-btn msdsfile d-none" id="chooseBtn">
+                                <i class="fa fa-file-upload mr-1"> </i>Upload MSDS File</label>
+                            <span id="file_error" class="file_type_error"></span>
+                        </div>
+
+
+                        <div class="form-label-group  col-md-6 d-flex align-items-center">
+                            <div for="quoteEXW" style="width:200px">EXW Required </div>
+                            <select class="form-control" name="exw_required" id="quoteEXW"
+                                style="height: 60px; padding: 17px 15px;">
+                                <option value="">Choose</option>
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                        </div>
+                        <div class="form-label-group col-md-6">
+                            <input type="text" name="complete_exw_address" id="quoteEXHaddress"
+                                class="form-control exh d-none" placeholder="Complete EXW address"
+                                value="{{ old('complete_exw_address') }}">
+                            <label class="exh d-none" for="quoteEXHaddress">Complete EXW address</label>
+                        </div>
+
+
+                        <div class="col-12 mt-4 mb-3">
+                            <h5>Contact Details</h5>
+                        </div>
+                        <div class="form-label-group col-md-12">
+                            <input type="text" name="name" id="quoteName" class="form-control"
+                                placeholder="Contact Person Name" value="{{ old('name') }}">
+                            <label for="quoteName">Contact Person Name</label>
+                        </div>
+                        <div class="form-label-group col-md-12">
+                            <input type="text" name="company" id="quoteCompany" class="form-control"
+                                placeholder="Company Name And Company Address" value="{{ old('company') }}">
+                            <label for="quoteCompany">Company Name And Company Address</label>
+                        </div>
+                        <div class="form-label-group col-md-6">
+                            <input type="email" name="email" id="quoteEmail" class="form-control"
+                                placeholder="Email address" value="{{ old('email') }}">
+                            <label for="quoteEmail">Email address</label>
+                        </div>
+                        <div class="form-label-group col-md-6">
+                            <input type="text" name="phone" id="quoteContact" class="form-control"
+                                placeholder="Contact Number" value="{{ old('phone') }}">
+                            <label for="quoteContact">Contact Number</label>
+                        </div>
+                        <div class="form-label-group col-md-12">
+                            <input type="text" name="refrenceNumber" id="quoteRefrenceNumber"
+                                class="form-control" placeholder="Full Address"
+                                value="{{ old('referenceNumber') }}">
+                            <label for="quoteRefrenceNumber">Refrence Number</label>
+                        </div>
+                        <div class="form-label-group col-md-12">
+                            <textarea type="textarea" class="form-control" name="additionalInformation" id="quoteAdditionalInformation"
+                                style="min-height: 150px;" placeholder="Additional Information">{{ old('additionalInformation') }}</textarea>
+                            <label for="quoteAdditionalInformation"> Additional Information</label>
+                        </div>
+                        <div class="col-12 mt-4 mb-3">
+                            <h5>Captcha Code</h5>
+                        </div>
+                        <div class="quoteCaptchaDiv">
+                            {{-- <div class="form-label-group col-md-12">
+                                <div class="input-group " id="quoteCaptchaWrapper">
+                                    <input type="text" class="form-control" placeholder="Captcha"
+                                        id="quoteCaptcha" name="quoteCaptcha" autocomplete="off" style="width: 30%"
+                                        value="{{ old('captcha') }}">
+                                    <label for="quoteCaptcha">Captcha</label>
+                                    <div class="input-group-append">
+                                        <span class="input-group-text p-0 border-0" id="quoteCap"
+                                            style="background-color: #ffffff !important;">
+                                            @captcha
+                                        </span>
+                                    </div>
+
+                                </div>
+                            </div> --}}
+                        </div>
+
+                        <input type="hidden" name="form_type" value="quote_form">
+
+                        <input type="hidden" id="token" name="token" />
+
+                        <button class="btn btn-lg btn-main btn-block mt-5" name="submit"
+                            type="submit">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section-carousel">
+        <div class="carousel-single owl-carousel owl-drag owl-theme">
+            <div class="carousel-item " style="background-image: url({{ asset('assets/img/slider/sea1.jfif') }});">
+                <div class="containee d-flex">
+                    <div class="row">
+                        <div class="col-md-8 text-md-left text-center text-col">
+                            <div class="item-content ">
+                                <h2 class="h1 text-uppercase"><strong>Sea Shipments</strong></h2>
+                                {{-- <p class="text-uppercase small">
+                                    Our company ensures unchallenged service quality for ocean shipments through the
+                                    long-standing relationship of its associates with the leading ocean liners.</p> --}}
+                                <div style="width:500px">
+                                    <p class="text-uppercase small">Unchallenged service quality for ocean shipments
+                                    </p>
+                                    <p class="text-uppercase small">
+                                        Long-standing relationship with leading ocean liners
+
+                                    </p>
+                                    <p class="text-uppercase small">
+                                        Worldwide network of logistics experts/partners
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item" style="background-image: url({{ asset('assets/img/slider/air1.jpeg') }});">
+                <div class="containe d-flex justify-content-end w-100">
+                    <div class="row justify-content-end">
+                        <div class="col-md-12 text-md-left text-center text-col">
+                            <div class="item-content white">
+                                <h2 class="h1 text-uppercase"><strong>Air Cargo</strong></h2>
+                                {{-- <p class="text-uppercase small">
+                                    We offer the one of the most reliable and comprehensive services for air shipments
+                                    through major airliners for both import and export.</p> --}}
+                                <div>
+                                    <p class="text-uppercase small">Reliable and comprehensive services for air
+                                        shipments
+
+                                    </p>
+                                    <p class="text-uppercase small">
+                                        Association with top-tier airliners for both import and export
+
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item" style="background-image: url({{ asset('assets/img/slider/land1.jpg') }});">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-md-left text-center text-col">
+                            <div class="item-content white">
+                                <h2 class="h1 text-uppercase"><strong>Inland Services</strong></h2>
+                                {{-- <p class="text-uppercase small">
+                                    We have the advantage of delegating dedicated intermodal dispatch teams who can
+                                    efficiently handle any kind of inland logistics processes making sure cargo arrives
+                                    at its destination on time and in perfect condition.
+                                </p> --}}
+                                <div>
+                                    <p class="text-uppercase small">Delegation of dedicated intermodal dispatch teams
+
+                                    </p>
+                                    <p class="text-uppercase small">
+                                        Efficient handling of any inland logistics processes
+
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-about container-fluid" id="abt">
+        <div class="row align-items-start justify-content-center">
+            <div class="col-12">
+                <h1 class="section-title">
+                    ABOUT
+                    <span>
+                        US
+                    </span>
+                </h1>
+            </div>
+            <div class="col-10 col-sm-12 col-md-5 col-lg-4">
+                <img src="{{ asset('assets/logo2.png') }}" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h2 class="section-sub-title">
+                    SR Logistics
+                </h2>
+                <div class="content pt-2">
+                    <p>
+                        SR Logistics is the flagship end-to-end logistics services providing agency of Group
+                        Innovative Investments based in Nepal for services such as domestic and international
+                        logistics via road, air, rail, and sea transport. We also offer services related to
+                        warehousing, customs, and purchasing.
+                    </p>
+                    {{-- <div class="moretext" style="display: none;">
+                        <p>
+                            Our company has its own operational network and branch offices all over the country and
+                            works directly with major shipping liners and airliners. Additionally, we have an exclusive
+                            global freight forwarding network partner headquartered in Singapore. Our primary focus
+                            is offering reliable, timely and flawless freight forwarding services for both import and
+                            export of commodities to and from Nepal by all three modes of transportation i.e. air,
+                            land and ocean.
+                        </p>
+                        <p>
+                            The focus and accomplishments of our company has always been providing outstanding
+                            professional expertise and consultancy for our existing clientele and for future customers
+                            all under one roof. In order to do so, we do not merely sell rates but provide consultancy
+                            and advice for our clients to assure optimal solutions according to their specific
+                            requirements.
+                        </p>
+                    </div> --}}
+                    <div class="moretext" style="display: none;">
+                        <p>
+                            From any origin and to any destination, you can count on SR to give it our all to get your
+                            goods
+                            right to your doorstep. Refusing to take half measures, we go “ALL IN” to serve.
+                        </p>
+                        <p>
+                            Our company has its own operational network and branch offices all over Nepal and works
+                            directly with influential shipping liners and airliners. Additionally, we have an exclusive
+                            global
+                            freight forwarding network partner headquartered in Singapore. Our primary focus is offering
+                            reliable, timely, and flawless freight forwarding services for the import/export of
+                            commodities by
+                            all three modes of transportation, i.e., air, land, and ocean.
+                        </p>
+                        <p>
+                            The focus and accomplishments of our company have always been providing outstanding
+                            professional expertise and consultancy for our existing and future customers under one roof.
+                            To
+                            do so, we do not merely sell rates but provide consultancy and advice for our clients to
+                            ensure
+                            optimal solutions according to their specific requirements.
+                        </p>
+                        <p>
+                            Our office is located centrally at the heart of Kathmandu Valley on the second floor of the
+                            Metro
+                            Park Building in Uttardhoka. We operate from 7:30 a.m. to 7:30 p.m. (GMT+5:45), and our
+                            customer service representatives are available 24/7.
+
+                        </p>
+                    </div>
+                </div>
+                <button type="button" class="btn-main moreless-button"><span>Read more</span><i
+                        class="fa fa-chevron-down"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg">
+        <section class="section-services" id="ser">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h1 class="section-title">
+                            OUR
+                            <span class="mr-3">
+                                SERVICES
+                            </span>
+                        </h1>
+                        <p>
+                            Land, sea, and air, we are there. General, DG, Refer, or SOC, we ensure that they move
+                            safely. Warehousing, Inventory Management, and Customs Brokerage are all functions SR
+                            can manage. Project Shipments, Oversized Cargo, and Household Effects, SR Logistics
+                            delivers without disconnect. Along with Consultation services to help enhance your
+                            business.
+
+
+                        </p>
+                        <p>
+                            Our organization is forever “ALL IN” to meet your every logistics demand.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="{{ asset('assets/img/ser/sea2.jpg') }}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sea Shipments</h5>
+                                <p class="card-text">Our company ensures unchallenged service quality for ocean
+                                    shipments through a long-standing
+                                    relationship with the leading ocean liners.
+                                </p>
+                                <button type="button" type="button" class="btn btn-main" data-toggle="modal"
+                                    data-target="#servicesModal" href="#sea">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="{{ asset('assets/img/ser/air2.jpeg') }}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Air Cargo</h5>
+                                <p class="card-text">We offer one of the most reliable and comprehensive services for
+                                    air shipments through major
+                                    airliners for both import and export.
+                                </p>
+
+                                <button type="button" type="button" class="btn btn-main" data-toggle="modal"
+                                    data-target="#servicesModal" href="#air">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="{{ asset('assets/img/ser/land2.jpg') }}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Inland Services (Rail and Road Shipments)</h5>
+                                <p class="card-text">We have the advantage of delegating dedicated intermodal dispatch
+                                    teams who can efficiently
+                                    handle any inland logistics processes, ensuring that cargo arrives at its
+                                    destination.</p>
+                                <button type="button" type="button" class="btn btn-main" data-toggle="modal"
+                                    data-target="#servicesModal" href="#inland">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="{{ asset('assets/img/ser/warehousing.jpg') }}" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Warehouse Services and Inventory Management</h5>
+                                <p class="card-text">Our company has an excellent network of warehouses with long-term
+                                    leases at various ports,
+                                    docks, and international borders for storage of cargo, packaging, and deliveries by
+                                    sea, land, and
+                                    air modes.
+                                </p>
+                                <button type="button" type="button" class="btn btn-main" data-toggle="modal"
+                                    data-target="#servicesModal" href="#warehouse">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="{{ asset('assets/img/ser/custom.jpg') }}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Customs Brokerage</h5>
+                                <p class="card-text">Our network has several custom brokers stationed at various
+                                    customs points across the country to
+                                    help our clients synchronize documentation and formalities needed for complicated
+                                    customs
+                                    clearance processes to progress smoothly and cost-effectively.
+                                </p>
+                                <button type="button" type="button" class="btn btn-main" data-toggle="modal"
+                                    data-target="#servicesModal" href="#custom">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="{{ asset('assets/img/ser/dangerous-goods.webp') }}" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Dangerous Goods</h5>
+                                <p class="card-text">SR has a team of certified DG handlers and is familiar with all
+                                    courses of action required to
+                                    manage and move Dangerous Goods.
+                                </p>
+                                <button type="button" type="button" class="btn btn-main" data-toggle="modal"
+                                    data-target="#servicesModal" href="#dangerous-goods">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="{{ asset('assets/img/ser/refer-container.webp') }}" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Refer (Refrigerated) Container Cargo
+                                </h5>
+                                <p class="card-text">We have in-depth knowledge of the process required to move
+                                    refrigerated and
+                                    temperature-controlled goods.
+
+                                </p>
+                                <button type="button" type="button" class="btn btn-main" data-toggle="modal"
+                                    data-target="#servicesModal" href="#refer-container">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="{{ asset('assets/img/ser/ship.jpg') }}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Project Shipments
+                                </h5>
+                                <p class="card-text">We move everything, and we love the challenge. Our project
+                                    transport specialists have carried
+                                    out many demanding special transports. We have transported industrial and oversized
+                                    equipment
+                                    for various large and complex projects.
+
+                                </p>
+                                <button type="button" type="button" class="btn btn-main" data-toggle="modal"
+                                    data-target="#servicesModal" href="#project">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="{{ asset('assets/img/ser/project-shipment.webp') }}" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Oversized Cargo</h5>
+                                <p class="card-text">SR is well-practiced at importing or exporting oversized cargo. If
+                                    general airlines in Nepal
+                                    cannot accommodate large-sized cargo, SR can arrange for freight planes that carry
+                                    the goods to
+                                    CUU. Additionally, We can transport your oversized cargo anywhere in Nepal by Road.
+
+                                </p>
+                                <button type="button" type="button" class="btn btn-main" data-toggle="modal"
+                                    data-target="#servicesModal" href="#oversized-cargo">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="{{ asset('assets/img/ser/household-effects.webp') }}" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Household Effects</h5>
+                                <p class="card-text">We can utilize our worldwide network of professionals to deliver
+                                    your personal effects. We can
+                                    import or export your household effects to ensure that the things you hold dear are
+                                    never far from
+                                    you. These services are available via air and sea.
+
+                                </p>
+                                <button type="button" type="button" class="btn btn-main" data-toggle="modal"
+                                    data-target="#servicesModal" href="#household-effects">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="{{ asset('assets/img/ser/soc-movement.webp') }}" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">SOC Movement</h5>
+                                <p class="card-text">Whether at the point of origin or the end destination, SR can
+                                    assist clients in purchasing
+                                    containers according to their needs
+
+                                </p>
+                                <button type="button" type="button" class="btn btn-main" data-toggle="modal"
+                                    data-target="#servicesModal" href="#soc-movement">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="{{ asset('assets/img/ser/consult.webp') }}" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Consultations</h5>
+                                <p class="card-text">SR provides in-depth consultations that consider the specifics of
+                                    each project by analyzing them
+                                    through the lens of reverse thinking and by identifying appropriate solutions on a
+                                    client-to-client
+                                    basis
+
+                                </p>
+                                <button type="button" type="button" class="btn btn-main" data-toggle="modal"
+                                    data-target="#servicesModal" href="#consultations">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="{{ asset('assets/img/ser/insure.jpg') }}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Transport Insurance</h5>
+                                <p class="card-text">
+                                    All modes of transport - air, ship or land - have their own national and
+                                    international set of laws and regulations. Our responsibility as a freight
+                                    forwarding
+                                    agent is regulated by various country specific laws and rules. We provide cargo
+                                    insurance through a reputable insurance company, ensuring coverage for full
+                                    invoice value in case of loss or damage of goods.
+                                </p>
+                                <button type="button" type="button" class="btn btn-main" data-toggle="modal"
+                                    data-target="#servicesModal" href="#insurance">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div> --}}
+
+                </div>
+            </div>
+        </section>
+
+        <div class="modal fade" id="servicesModal" tabindex="-1" aria-labelledby="servicesModal"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <button type="button" class="close btn-main" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&#10005;</span>
+                    </button>
+
+                    <div class="modal-body">
+                        <div class="services-tab-container">
+                            <div class="services-tab-panel">
+
+                                <div class="tab-content" id="here">
+                                    <div class="tab-pane active" id="sea">
+                                        <h3>
+                                            Sea Shipments
+                                        </h3>
+                                        <span>
+
+                                            <img src="{{ asset('assets/img/ser/sea2.jpg') }}" class="card-img-top"
+                                                alt="...">
+                                            {{-- <p>
+                                                Our company ensures unchallenged service quality for ocean shipments
+                                                through
+                                                the long-standing relationship of its associates with the leading ocean
+                                                liners.
+                                            </p>
+                                            <p>
+                                                Full container loads (FCL) and less than container loads (LCL) by sea
+                                                freight
+                                                is one of our core services. Each year, we deliver thousands of TEUs of
+                                                standard everyday goods as well as chilled and frozen products to
+                                                container
+                                                ports worldwide. With our global agency network and contacts within the
+                                                shipping lines, we provide weekly departures to destinations all over
+                                                the
+                                                world.
+                                            </p>
+                                            <p>
+                                                IT has become an important factor in today’s transport and logistics
+                                                industry. As our client, you will benefit from IT tools such as
+                                                container
+                                                and
+                                            </p>
+                                            <p>
+                                                vessel tracking service. Providing you with a full overview of your
+                                                shipment
+                                                anytime and anywhere gives you the opportunity to plan your transport in
+                                                the best way. We provide a wide range of services related to sea
+                                                freight,
+                                                such as chartering, warehousing, customs handling, transport of project
+                                                cargo and heavy lifting. In other words, we optimize your logistics
+                                                chain.
+                                                As an independent freight forwarder, we cooperate with a large variety
+                                                of
+                                                carefully selected partners worldwide. We choose our business partners
+                                                on
+                                                the basis of criteria, such as quality, service and reliability, because
+                                                we
+                                                want our clients to trust us. We repay our clients&#39; trust with
+                                                quality
+                                                solutions, unique and personal service and by keeping our promises.
+                                            </p> --}}
+
+                                            <p>
+                                                Our company ensures unchallenged service quality for ocean shipments
+                                                through a long-standing
+                                                relationship with the leading ocean liners.</p>
+                                            <p>
+                                                SR Logistics has cultivated a long-standing association with influential
+                                                shipping lines, which
+                                                helps us provide services with flexibility. Utilizing our network, SR
+                                                helps customers find
+                                                systematic logistics solutions to customers. Capable of both Full
+                                                container loads (FCL) and less
+                                                than container loads (LCL) shipment forwarding, our team of experts can
+                                                help manage all types
+                                                of commodities. General, Dangerous Goods and Goods requiring
+                                                Refrigeration all fall under our
+                                                expertise.</p>
+                                            <p>
+                                                In addition to sea transport, SR can assist with collection
+                                                arrangements, delivery, storage,
+                                                customs clearance, and insurance. Furthermore, we can arrange the
+                                                purchase of containers for
+                                                any SOC Movement according to the client’s needs.
+
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="tab-pane" id="air">
+                                        <h3>
+                                            Air Cargo
+                                        </h3>
+                                        <span>
+                                            <img src="{{ asset('assets/img/ser/air2.jpeg') }}" class="card-img-top"
+                                                alt="...">
+                                            <p>
+                                                We offer one of the most reliable and comprehensive services for air
+                                                shipments through major
+                                                airliners for both import and export.
+                                            </p>
+                                            <p>
+                                                Be it export or import, SR recommends aircraft and airlines based on the
+                                                specific needs of
+                                                customers to provide the most economical solution. Depending on the
+                                                routes, air couriers, and
+                                                client-specific air charters, we can cater to various commodity types
+                                                like general cargo, DG,
+                                                Reefer, Time Critical, or Garment on Hanger (GOH). Additionally, we can
+                                                grant individual
+                                                consolidation of cargo.
+                                            </p>
+                                        </span>
+
+                                    </div>
+                                    <div class="tab-pane" id="inland">
+                                        <h3>
+                                            Inland Services (Rail and Road Shipments)
+                                        </h3>
+                                        <span>
+                                            <img src="{{ asset('assets/img/ser/land2.jpg') }}" class="card-img-top"
+                                                alt="...">
+                                            <p>
+                                                We have the advantage of delegating dedicated intermodal dispatch teams
+                                                who can efficiently
+                                                handle any inland logistics processes, ensuring that cargo arrives at
+                                                its destination.
+
+                                            </p>
+                                            <p>
+                                                We can provide inland services from Kolkata to any part of Nepal, from
+                                                China to any part of
+                                                Nepal (via Kerung or Tatopani), and from India to Nepal.
+
+                                            </p>
+                                        </span>
+
+                                    </div>
+                                    <div class="tab-pane" id="warehouse">
+                                        <h3>
+                                            Warehouse Services and Inventory Management
+                                        </h3>
+                                        <span>
+
+                                            <img src="{{ asset('assets/img/ser/warehousing.jpg') }}"
+                                                class="card-img-top" alt="...">
+                                            {{-- <p>
+                                                Our company has an excellent network of warehouses with long-term leases
+                                                at
+                                                various ports, docks and international borders for storage of cargo,
+                                                packaging and
+                                                deliveries by various modes such as sea, land and air
+                                            </p>
+                                            <p>
+                                                With our flexible warehouse solutions, our clients benefit from modern
+                                                and
+                                                secure storage facilities worldwide both indoors as well as outdoors.
+                                                Our
+
+                                                highly skilled and experienced staff is capable of handling all types of
+                                                cargo,
+                                                and modern equipment ensuring safety in handling goods. In addition to
+                                                storage, our solutions include a large variety of services such as
+                                                emptying
+                                                and stowage of containers, repacking and packing as well as preparing
+                                                goods
+                                                for transport. Our Compass Warehouse System, which is easily integrated
+                                                with our clients’ technology, offers storage hotel services. Our clients
+                                                have
+                                                24/7 access and full overview of their inventory, and customs handling,
+                                                pick
+                                                &amp; pack and track &amp; trace are part of the program as well as
+                                                other
+                                                features
+                                                that add value to our clients’ supply chain. We also operate as
+                                                single-point-
+                                                of-contact with cruise industry operators providing all services for
+                                                incoming
+                                                and outgoing shipments to and from the cruise vessels. In other words,
+                                                our
+                                                clients are able to receive customized solutions for their complex
+                                                requirements. In fact, if the solution does not already exist, we go
+                                                ahead
+                                                and create it for them at every opportunity.
+                                            </p> --}}
+                                            <p>
+                                                Our company has an excellent network of warehouses with long-term leases
+                                                at various ports,
+                                                docks, and international borders for storage of cargo, packaging, and
+                                                deliveries by sea, land, and
+                                                air modes
+                                            </p>
+                                        </span>
+
+                                    </div>
+                                    <div class="tab-pane" id="custom">
+                                        <h3>
+                                            Customs Brokerage
+                                        </h3>
+                                        <span>
+                                            <img src="{{ asset('assets/img/ser/custom.jpg') }}" class="card-img-top"
+                                                alt="...">
+                                            <p>
+                                                Our network has several custom brokers stationed at various customs
+                                                points across the country to
+                                                help our clients synchronize documentation and formalities needed for
+                                                complicated customs
+                                                clearance processes to progress smoothly and cost-effectively
+                                            </p>
+                                            {{-- <p>
+                                                We have invested heavily in customs brokerage operations to provide and
+                                                synchronise documentation and formalities needed timely for various
+                                                kinds of
+                                                complicated customs clearance processes for clients in a smooth and
+                                                cost-
+                                                effective manner
+                                            </p>
+                                            <p>
+                                                Customs handling of import and export shipments is part of our core
+                                                services. We want our clients to know that their cargo is in safe hands
+                                                with
+                                                us. We take care of all document handling which can be a tricky affair
+                                                as
+                                                customs rules and regulations vary from one country to another. Whether
+                                                the cargo is live animals/plants, reefer products, FCL/LCL, large-scale
+                                                industrial cargo or something else altogether, we have the expertise,
+                                                know-
+                                                how and in-house competencies to ensure the correct customs process. The
+                                                correct way of handling the customs clearance is essential as it may
+                                                save
+                                                costs and prevent delays in the release process.
+                                            </p> --}}
+                                        </span>
+
+                                    </div>
+
+
+                                    <div class="tab-pane" id="dangerous-goods">
+                                        <h3>
+                                            Dangerous Goods
+                                        </h3>
+                                        <span>
+                                            <img src="{{ asset('assets/img/ser/dangerous-goods.webp') }}"
+                                                class="card-img-top" alt="...">
+                                            <p>
+                                                SR has a team of certified DG handlers and is familiar with all courses
+                                                of action required to
+                                                manage and move Dangerous Goods.
+                                            </p>
+                                            <p>
+                                                We have extensive experience with DG and are confident we can help
+                                                forward any goods
+                                                classified as such by air and sea.
+
+
+                                            </p>
+                                        </span>
+
+                                    </div>
+
+                                    <div class="tab-pane" id="refer-container">
+                                        <h3>
+                                            Refer (Refrigerated) Container Cargo
+
+                                        </h3>
+                                        <span>
+                                            <img src="{{ asset('assets/img/ser/refer-container.webp') }}"
+                                                class="card-img-top" alt="...">
+                                            <p>
+                                                We have in-depth knowledge of the process required to move refrigerated
+                                                and
+                                                temperature-controlled goods.
+                                            </p>
+                                            <p>
+                                                SR Logistics can provide temperature-regulated facilities for raw
+                                                materials or processed goods,
+                                                including those classified as both DG and Refer
+
+
+                                            </p>
+                                        </span>
+
+                                    </div>
+
+
+
+                                    <div class="tab-pane" id="project">
+                                        <h3>
+                                            Project Shipments
+                                        </h3>
+                                        <span>
+                                            <img src="{{ asset('assets/img/ser/ship.jpg') }}" class="card-img-top"
+                                                alt="...">
+                                            <span>
+                                                <p>
+                                                    We move everything, and we love the challenge. Our project transport
+                                                    specialists have carried
+                                                    out many demanding special transports. We have transported
+                                                    industrial and oversized equipment
+                                                    for various large and complex projects.
+
+                                                </p>
+                                                <p>
+                                                    Our experience dictates that we are dependable collaborators who can
+                                                    manage the movement of
+                                                    goods for any project. The knowledgeable team of experts and years
+                                                    of involvement help us
+                                                    manage the cargo of any specification for large or small-scale
+                                                    projects via air or sea. Depending
+                                                    on your needs, we can also charter specialized aircraft to carry the
+                                                    commodities needed for your
+                                                    project.
+                                                </p>
+                                                {{-- <p>
+                                                    We move everything and we love the challenge. Our project transport
+                                                    specialists
+                                                    have carried out many demanding special transports throughout the
+                                                    years. For the
+                                                    past 18 years, we as a group have transported industrial
+                                                    out-of-gauge
+                                                    and
+                                                    oversized equipment of various types of large and complex projects.
+                                                </p>
+                                                <p>
+                                                    The services
+                                                    we provide through our in-house experts include planning, risk
+                                                    assessment, method
+                                                    statements, engineering, heavy lift and much more. In short, we
+                                                    provide a
+                                                    complete solution with safety and security as our highest priority.
+                                                    After all,
+                                                    protecting our employees and partners is protecting our business.
+                                                </p> --}}
+                                            </span>
+                                        </span>
+
+                                    </div>
+
+
+
+
+                                    <div class="tab-pane" id="oversized-cargo">
+                                        <h3>
+                                            Oversized Cargo
+                                        </h3>
+                                        <span>
+                                            <img src="{{ asset('assets/img/ser/project-shipment.webp') }}"
+                                                class="card-img-top" alt="...">
+                                            <p>
+                                                SR is well-practiced at importing or exporting oversized cargo. If
+                                                general airlines in Nepal
+                                                cannot accommodate large-sized cargo, SR can arrange for freight planes
+                                                that carry the goods to
+                                                CUU. Additionally, We can transport your oversized cargo anywhere in
+                                                Nepal by Road.
+
+                                            </p>
+                                            <p>
+                                                Despite being one of the more difficult cargo-related endeavors, SR has
+                                                regularly proved that
+                                                they can adeptly deliver oversized cargo via Flat Rack or Open Top.
+
+                                            </p>
+                                        </span>
+
+                                    </div>
+
+
+                                    <div class="tab-pane" id="household-effects">
+                                        <h3>
+                                            Household Effects
+                                        </h3>
+                                        <span>
+                                            <img src="{{ asset('assets/img/ser/household-effects.webp') }}"
+                                                class="card-img-top" alt="...">
+                                            <p>
+                                                We can utilize our worldwide network of professionals to deliver your
+                                                personal effects. We can
+                                                import or export your household effects to ensure that the things you
+                                                hold dear are never far from
+                                                you. These services are available via air and sea.
+
+                                            </p>
+
+                                        </span>
+
+                                    </div>
+
+
+
+
+
+                                    <div class="tab-pane" id="soc-movement">
+                                        <h3>
+                                            SOC Movement
+                                        </h3>
+                                        <span>
+                                            <img src="{{ asset('assets/img/ser/soc-movement.webp') }}"
+                                                class="card-img-top" alt="...">
+                                            <p>
+                                                Whether at the point of origin or the end destination, SR can assist
+                                                clients in purchasing
+                                                containers according to their needs.
+                                            </p>
+                                            <p>
+                                                Beyond the purchase of containers, we can also help with the loading of
+                                                cargo and delivery of
+                                                the goods to warehouses.
+                                            </p>
+
+                                        </span>
+
+                                    </div>
+                                    <div class="tab-pane" id="consultations">
+                                        <h3>
+                                            Consultations
+                                        </h3>
+                                        <span>
+                                            <img src="{{ asset('assets/img/ser/consult.webp') }}"
+                                                class="card-img-top" alt="...">
+                                            <p>
+                                                SR provides in-depth consultations that consider the specifics of each
+                                                project by analyzing them
+                                                through the lens of reverse thinking and by identifying appropriate
+                                                solutions on a client-to-client
+                                                basis.
+
+                                            </p>
+                                            <p>
+                                                Our “All In” approach emphasizes building genuine relationships and
+                                                providing helpful
+                                                suggestions that elevate the business experience of our consultees
+                                            </p>
+                                            <p>
+                                                We serve as a helping hand to all companies and experts in our network.
+                                                Our problem-solving
+                                                expertise and fully functioning departments of experienced logistics
+                                                experts can provide
+                                                world-class services to our Nepalese clients on local and international
+                                                levels.
+
+                                            </p>
+
+                                        </span>
+
+                                    </div>
+
+                                    {{-- 
+                                    <div class="tab-pane" id="insurance">
+                                        <h3>
+                                            Transport Insurance
+                                        </h3>
+                                        <span>
+                                            <img src="{{ asset('assets/img/ser/insure.jpg') }}" class="card-img-top"
+                                                alt="...">
+                                            <p>
+                                                We have invested heavily in customs brokerage operations to provide
+                                                and
+                                                synchronise documentation and formalities needed timely for various
+                                                kinds of
+                                                complicated customs clearance processes for clients in a smooth and
+                                                cost-
+                                                effective manner
+                                            </p>
+                                            <p>
+                                                Customs handling of import and export shipments is part of our core
+                                                services. We want our clients to know that their cargo is in safe
+                                                hands with
+                                                us. We take care of all document handling which can be a tricky
+                                                affair as
+                                                customs rules and regulations vary from one country to another.
+                                                Whether
+                                                the cargo is live animals/plants, reefer products, FCL/LCL,
+                                                large-scale
+                                                industrial cargo or something else altogether, we have the
+                                                expertise, know-
+                                                how and in-house competencies to ensure the correct customs process.
+                                                The
+                                                correct way of handling the customs clearance is essential as it may
+                                                save
+                                                costs and prevent delays in the release process.
+                                            </p>
+                                        </span>
+
+                                    </div> --}}
+
+
+                                    <div class="tab-pane" id="other">
+                                        <div class="row justify-content-center">
+                                            <div class="col-12">
+                                                <h3>Other Services</h3>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-5 col-sm-6 col-6 item-col">
+                                                <div class="item">
+                                                    <i class="fas fa-boxes"></i>
+                                                    <h4>Packaging</h4>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-5 col-sm-6 col-6 item-col">
+                                                <div class="item">
+                                                    <i class="fas fa-shield-alt"></i>
+                                                    <h4>Advanced Security Systems</h4>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-5 col-sm-6 col-6 item-col">
+                                                <div class="item">
+                                                    <i class="fas fa-shuttle-van"></i>
+                                                    <h4>Reliable Shuttle Service</h4>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-5 col-sm-6 col-6 item-col">
+                                                <div class="item">
+                                                    <i class="fas fa-shipping-fast"></i>
+                                                    <h4>Rapid Distribution</h4>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-5 col-sm-6 col-6 item-col">
+                                                <div class="item">
+                                                    <i class="fas fa-dolly"></i>
+                                                    <h4>Door-to-Door Deliveries</h4>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <ul class="nav nav-tabs ">
+                                    <li class="active ">
+                                        <a href="#sea" data-toggle="tab" class="active">
+                                            Sea Shipments </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#air" data-toggle="tab">
+                                            Air Cargo </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#inland" data-toggle="tab">
+                                            Inland Services </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#warehouse" data-toggle="tab">
+                                            Warehouse and Inventory </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#custom" data-toggle="tab">
+                                            Customs Brokerage </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#dangerous-goods" data-toggle="tab">
+                                            Dangerous Goods </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#refer-container" data-toggle="tab">
+                                            Refer (Refrigerated) Container Cargo</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#project" data-toggle="tab">
+                                            Project Shipments </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#oversized-cargo" data-toggle="tab">
+                                            Oversized Cargo </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#household-effects" data-toggle="tab">
+                                            Household Effects </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#soc-movement" data-toggle="tab">
+                                            SOC Movement </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#consultations" data-toggle="tab">
+                                            Consultations </a>
+                                    </li>
+                                    {{-- <li class="">
+                                        <a href="#insurance" data-toggle="tab">
+                                            Transport Insurance </a>
+                                    </li> --}}
+                                    <li class="">
+                                        <a href="#other" data-toggle="tab">
+                                            Other Services </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg2">
+
+        <section class="section-other-services">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h1 class="section-title">
+                            OTHER
+                            <span class="mr-3">
+                                SERVICES
+                            </span>
+                        </h1>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 item-col">
+                        <div class="item">
+                            <i class="fas fa-boxes"></i>
+                            <h4>Packaging</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 item-col">
+                        <div class="item">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Advanced Security Systems</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 item-col">
+                        <div class="item">
+                            <i class="fas fa-shuttle-van"></i>
+                            <h4>Reliable Shuttle Service</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 item-col">
+                        <div class="item">
+                            <i class="fas fa-shipping-fast"></i>
+                            <h4>Rapid Distribution</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 item-col">
+                        <div class="item">
+                            <i class="fas fa-dolly"></i>
+                            <h4>Door-to-Door Deliveries</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-contact" id="con">
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <h1 class="section-title">
+                        CONTACT
+                        <span class="mr-3">
+                            US
+                        </span>
+                    </h1>
+                </div>
+                <div class="col-12">
+                    <div class="row container-fluid contact-detail align-items-center">
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <h5>Address</h5>
+                            <p class="text-muted">2nd Floor, Metro Park Building,
+
+                                Rajdurbar, Uttardhoka,
+
+                                Lazimpat, Kathmandu</p>
+                        </div>
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <h5>Contact Numbers</h5>
+                            {{-- <p class="text-muted">+977-1-4005233</p>
+                            <p class="text-muted">+977-1-4005234</p> --}}
+                            <p class="text-muted">+977-1-5970430</p>
+                            {{-- <p class="text-muted">+977-1-4516348</p> --}}
+                        </div>
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <h5>Web</h5>
+                            {{-- <p class="text-muted">info@srlogistics.com.np</p> --}}
+                            <p class="text-muted"><span class="enem" data-mbx="ofni" data-www="scitsigolrs"
+                                    data-ext="moc.pn" style="cursor:pointer" onclick="sendMail(this)"></span></p>
+                            <p class="text-muted">www.srlogistics.com.np</p>
+                        </div>
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <h5 class="mr-none ml-none mx-md-auto">WhatsApp</h5>
+                            <a href="https://wa.me/message/PNQXS423AL7UB1?src=qr"
+                                class="d-auto d-md-block m-none m-md-auto"style="width:fit-content;"><img
+                                    style="max-height:200px" src="{{ asset('assets/whatsapp.jpg') }}"></a>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    function _0x1358(_0x182a7e, _0x9f179a) {
+                        var _0x2321e7 = _0x2321();
+                        return _0x1358 = function(_0x1358e7, _0x26026a) {
+                            _0x1358e7 = _0x1358e7 - 0x156;
+                            var _0x1d9fb3 = _0x2321e7[_0x1358e7];
+                            return _0x1d9fb3;
+                        }, _0x1358(_0x182a7e, _0x9f179a);
+                    }(function(_0x2a0e93, _0x54dded) {
+                        var _0x361c84 = _0x1358,
+                            _0x485bda = _0x2a0e93();
+                        while (!![]) {
+                            try {
+                                var _0x254aa3 = parseInt(_0x361c84(0x161)) / 0x1 + parseInt(_0x361c84(0x165)) / 0x2 + parseInt(
+                                        _0x361c84(0x166)) / 0x3 * (parseInt(_0x361c84(0x156)) / 0x4) + -parseInt(_0x361c84(0x162)) /
+                                    0x5 * (-parseInt(_0x361c84(0x15e)) / 0x6) + parseInt(_0x361c84(0x15b)) / 0x7 + -parseInt(
+                                        _0x361c84(0x15d)) / 0x8 * (-parseInt(_0x361c84(0x15a)) / 0x9) + -parseInt(_0x361c84(
+                                        0x163)) / 0xa;
+                                if (_0x254aa3 === _0x54dded) break;
+                                else _0x485bda['push'](_0x485bda['shift']());
+                            } catch (_0x431cd9) {
+                                _0x485bda['push'](_0x485bda['shift']());
+                            }
+                        }
+                    }(_0x2321, 0xe225c));
+
+                    function _0x2321() {
+                        var _0x264be3 = ['data-ext', 'getAttribute', '18xSVVcH', '8499078YwGRuI', 'reverse', '5709320GUuNta',
+                            '96QQRIfv', 'location', 'split', '1800771UAfuBb', '39855JCrCva', '57577640BTTVCB', 'join',
+                            '1260634usKCkJ', '4451868sqmspw', 'data-mbx', '4QGigGe', 'href'
+                        ];
+                        _0x2321 = function() {
+                            return _0x264be3;
+                        };
+                        return _0x2321();
+                    }
+
+                    function sendMail(_0x407945) {
+                        var _0x2df2d6 = _0x1358;
+                        mbx = unJumble(_0x407945['getAttribute'](_0x2df2d6(0x167))), www = unJumble(_0x407945[_0x2df2d6(0x159)](
+                                'data-www')), ext = unJumble(_0x407945[_0x2df2d6(0x159)](_0x2df2d6(0x158))), fullAddr = mbx + '@' +
+                            www + '.' + ext;
+                        var _0x5aa833 = 'mailto:' + fullAddr;
+                        window[_0x2df2d6(0x15f)][_0x2df2d6(0x157)] = _0x5aa833;
+                    }
+
+                    function unJumble(_0x2ad865) {
+                        var _0x14a459 = _0x1358;
+                        return _0x2ad865[_0x14a459(0x160)]('')[_0x14a459(0x15c)]()[_0x14a459(0x164)]('')[_0x14a459(0x160)]('\x20')[
+                            'reverse']()[_0x14a459(0x164)]('\x20');
+                    }
+                </script>
+                <style>
+                    .enem:before {
+                        content: attr(data-ext) "." attr(data-www) "\0040" attr(data-mbx);
+                        unicode-bidi: bidi-override;
+                        direction: rtl;
+                    }
+                </style>
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d312.1847993375069!2d85.31871884189827!3d27.718279911283055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18e2a44d9f6d%3A0xbbbc8b2e6946ec07!2sMetro%20Park%20Building!5e0!3m2!1sen!2snp!4v1610530879082!5m2!1sen!2snp"
+                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="true"
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-md-6 form-col" id="contact">
+                    <form action="{{ route('contact') }}" method="POST" class="form-type-1" id="contact_form"
+                        name="contact_form">
+
+
+                        @if (old('form_type') === 'contact_form' && $errors->any())
+                            <script>
+                                window.onload = function() {
+                                    var contactSection = document.getElementById('contact');
+                                    if (contactSection) {
+                                        contactSection.scrollIntoView({
+                                            behavior: 'smooth'
+                                        });
+                                    }
+                                };
+                            </script>
+                        @endif
+                        {{-- 
+                        @if (Session::has('contact_form') && $errors->any())
+                            <script>
+                                document.addEventListener("DOMContentLoaded", function() {
+                                    console.log('DOM Content Loaded');
+                                    const contactSection = document.getElementById('contact');
+                                    if (contactSection) {
+                                        contactSection.scrollIntoView({
+                                            behavior: 'smooth'
+                                        });
+                                    }
+                                });
+                            </script>
+                        @endif --}}
+
+
+
+                        @csrf
+                        <h5 class="mb-4 pr-2">
+                            <span class="bg-main text-white px-2">Please</span>
+                            fill up the form and we'll get back to you.
+                        </h5>
+                        {{-- @if (Session::has('contact_form')){
+                          <h5><span class="text-white"> {{ Session::get('contact_form') }}</span></h5>
+                        }
+                        @endif --}}
+
+                        <div id="general_message" class="error_class"></div>
+                        <br>
+
+
+                        <div class="form-label-group">
+                            <input type="text" name="name" id="inputName" class="form-control"
+                                placeholder="Full Name" value="{{ old('name') }}">
+                            <label for="inputName">Full Name</label>
+                            <div id="inputName_message" class="error_class"></div>
+                            @error('name')
+                                <div class="invalid-feedback d-block">{{ $message }}</div>
+                            @enderror
+                        </div>
+
+
+                        <div class="form-label-group">
+                            <input type="text" name="email" id="inputEmail" class="form-control"
+                                placeholder="Email address" value="{{ old('email') }}">
+                            <label for="inputEmail">Email address</label>
+                            <div id="inputEmail_message" class="error_class"></div>
+                            @error('email')
+                                <div class="invalid-feedback d-block">{{ $message }}</div>
+                            @enderror
+                        </div>
+
+
+                        <div class="form-label-group">
+                            <input type="text" name="phone" id="inputPhone" class="form-control"
+                                placeholder="Contact Number" value="{{ old('phone') }}">
+                            <label for="inputPhone">Contact Number</label>
+                            <div id="inputPhone_message" class="error_class"></div>
+                            @error('phone')
+                                <div class="invalid-feedback d-block">{{ $message }}</div>
+                            @enderror
+                        </div>
+
+
+                        <div class="form-label-group">
+                            <input type="text" name="subject" id="inputSubject" class="form-control"
+                                placeholder="Subject" value="{{ old('subject') }}">
+                            <label for="inputSubject">Subject</label>
+                            <div id="inputSubject_message" class="error_class"></div>
+                            @error('subject')
+                                <div class="invalid-feedback d-block">{{ $message }}</div>
+                            @enderror
+                        </div>
+
+
+                        <div class="form-label-group">
+                            <textarea class="form-control" name="details" id="inputDetails" style="min-height: 150px;" placeholder="Details">{{ old('details') }}</textarea>
+                            <label for="inputDetails">Details</label>
+                            <div id="inputDetails_message" class="error_class"></div>
+                            @error('details')
+                                <div class="invalid-feedback d-block">{{ $message }}</div>
+                            @enderror
+                        </div>
+
+
+                        <div class="contactCaptchaDiv">
+                            <div class="form-label-group">
+
+
+                                <div class="input-group w-50">
+                                    <input type="text" class="form-control" placeholder="Captcha"
+                                        id="inputCaptcha" name="captcha" autocomplete="off" style="width: 30%"
+                                        value="{{ old('captcha') }}">
+                                    <label for="inputCaptcha">Captcha</label>
+                                    <div class="input-group-append">
+                                        <span class="input-group-text p-0 border-0" id="contactCap">
+                                            @captcha
+                                        </span>
+                                    </div>
+
+                                </div>
+
+                                <div id="inputCaptcha_message" class="error_class"></div>
+                                @error('captcha')
+                                    <div class="invalid-feedback d-block">{{ $message }}</div>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <input type="hidden" id="contact_token" value="" name="token" />
+
+                        <input type="hidden" name="form_type" value="contact_form">
+                        {{-- {{ old('form_type', 'new_form') }} --}}
+
+                        <button class="btn btn-lg btn-main btn-block" name="submit" id="contactSubmit"
+                            type="submit">SEND</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <section class="section-mv">
+        <div class="container">
+            <div class="row align-items-center  bg-white">
+
+
+
+                <div class="col-md-6 h-100 order-2 order-md-1">
+
+                    <img src="{{ asset('assets/sr-values.png') }}" class="img-fluid" alt="">
+
+                </div>
+
+                <div class="col-md-6 px-3 p-md-4 order-1 order-md-2">
+
+                    <hr>
+                    <br>
+
+                    <div class="vision">
+                        <h3 class="section-title mb-4">
+                            VISION
+                            <span class="mr-3 px-2 py-1">
+                                STATEMENT
+                            </span>
+                        </h3>
+                        <h6 class="section-sub-title">
+                            {{-- Connecting people, businesses and communities to a better future --}}
+                            “Ideas to Reality”
+                        </h6>
+                    </div>
+
+                    <br>
+                    <hr>
+                    <br>
+
+                    <div class="values">
+                        <h3 class="section-title mb-4">
+                            OUR
+                            <span class="mr-3 px-2 py-1">
+                                VALUES
+                            </span>
+                        </h3>
+                        <h6 class="d-flex justify-content-between flex-wrap">
+                            <div class="h5 section-sub-title"> Respected</div>
+                            <div class="h5 section-sub-title"> Trusted</div>
+                            <div class="h5 section-sub-title"> Experts</div>
+                            <div class="h5 section-sub-title"> Flexible</div>
+                        </h6>
+                    </div>
+
+                    <br>
+                    <hr>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-team bg3" id="team">
+        <div class="container">
+            <!--<div class="row justify-content-center">-->
+            <!--<div class="col-12">-->
+            <!--    <h1 class="section-title">-->
+            <!--        OUR-->
+            <!--        <span class="mr-3">-->
+            <!--            TEAM-->
+            <!--        </span>-->
+            <!--        MEMBERS-->
+            <!--    </h1>-->
+            <!--</div>-->
+            <!--<div class="col-10 col-sm-6 col-lg-4 col-xl-3 mb-3">-->
+            <!--    <div class="member" data-toggle="modal" data-target="#teamModal" href="#tab_team_1">-->
+            <!--        <div class="member-image">-->
+            <!--            <img src="{{ asset('assets/img/team/Deepak.jpeg') }}" alt="">-->
+            <!--        </div>-->
+            <!--        <div class="member-info">-->
+            <!--            <h3 class="full-name">Deepak Sahay</h3>-->
+            <!--            <span class="speciality">Chief Operating Officer</span>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</div>-->
+            <!--    <div class="col-10 col-sm-6 col-lg-4 col-xl-3 mb-3">-->
+            <!--        <div class="member" data-toggle="modal" data-target="#teamModal" href="#tab_team_2">-->
+            <!--            <div class="member-image">-->
+            <!--                <img src="{{ asset('assets/img/team/Anup.jpeg') }}" alt="">-->
+            <!--            </div>-->
+            <!--            <div class="member-info">-->
+            <!--                <h3 class="full-name">Anup Raj Srivastav</h3>-->
+            <!--                <span class="speciality">Sales Manager/ Air Cargo</span>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--    <div class="col-10 col-sm-6 col-lg-4 col-xl-3 mb-3">-->
+            <!--        <div class="member" data-toggle="modal" data-target="#teamModal" href="#tab_team_3">-->
+            <!--            <div class="member-image">-->
+            <!--                <img src="{{ asset('assets/img/team/Ruby.jpeg') }}" alt="">-->
+            <!--            </div>-->
+            <!--            <div class="member-info">-->
+            <!--                <h3 class="full-name">Ruby Shakya</h3>-->
+            <!--                <span class="speciality">Pricing Manager</span>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--    <div class="col-10 col-sm-6 col-lg-4 col-xl-3 mb-3">-->
+            <!--        <div class="member" data-toggle="modal" data-target="#teamModal" href="#tab_team_4">-->
+            <!--            <div class="member-image">-->
+            <!--                <img src="{{ asset('assets/img/team/Ram.jpeg') }}" alt="">-->
+            <!--            </div>-->
+            <!--            <div class="member-info">-->
+            <!--                <h3 class="full-name">Ram Kumar Koirala</h3>-->
+            <!--                <span class="speciality">Accounts</span>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</div>-->
+        </div>
+    </section>
+
+    <div class="modal fade" id="teamModal" tabindex="-1" aria-labelledby="teamModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable w7">
+            <div class="modal-content">
+                <button type="button" class="close btn-main" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&#10005;</span>
+                </button>
+
+                <div class="modal-body">
+                    <div class="team-tab-container">
+                        <h1 class="section-title h3 mb-4">
+                            OUR
+                            <span class="mr-2 ml-2 p-2">
+                                TEAM
+                            </span>
+                            MEMBERS
+                        </h1>
+                        <div class="team-tab-panel row">
+                            <ul class="nav nav-tabs col-12 col-sm-4 col-md-4 col-lg-4 mb-3 mb-sm-0 order-2 order-sm-1">
+                                <!--<li class="active">-->
+                                <!--    <a href="#tab_team_1" data-toggle="tab" class="active">-->
+                                <!--        Deepak Sahay </a>-->
+                                <!--</li>-->
+                                <li>
+                                    <a href="#tab_team_2" data-toggle="tab">
+                                        Anup Raj Srivastav </a>
+                                </li>
+                                <li>
+                                    <a href="#tab_team_3" data-toggle="tab">
+                                        Ruby Shakya </a>
+                                </li>
+                                <li>
+                                    <a href="#tab_team_4" data-toggle="tab">
+                                        Ram Kumar Koirala </a>
+                                </li>
+
+                            </ul>
+                            <div class="tab-content col-12 col-sm-8 col-md-8 col-lg-8 p-0 order-1 order-sm-2">
+                                <!--<div class="tab-pane active" id="tab_team_1">-->
+                                <!--    <div class="row member">-->
+                                <!--        <div class="col-12 col-sm-12 col-md-12 py-1">-->
+                                <!--            <div class="member-image">-->
+                                <!--                <img src="{{ asset('assets/img/team/Deepak.jpeg') }}" alt="">-->
+                                <!--            </div>-->
+                                <!--            <div class="member-info">-->
+                                <!--                <h3 class="full-name">Deepak Sahay</h3>-->
+                                <!--                <span class="speciality">Chief Operating Officer</span>-->
+                                <!--            </div>-->
+                                <!--            Deepak Sahay is the COO of S. R. Logistics responsible for leading the-->
+                                <!--            overall direction of the organization. Prior to joining S R Logistics,-->
+                                <!--            Deepak held various leadership roles at Maersk Line India Private Limited-->
+                                <!--            based at the company's Kolkata office. During his tenure there, he also led-->
+                                <!--            the successful "Lead the Nepal and Bhutan Import and Export Customer-->
+                                <!--            Service" program initiated by the company. Prior to association with Maersk-->
+                                <!--            Line, Deepak spent seven years at the TATA group in leadership positions in-->
+                                <!--            service management, sales, marketing and operations. He holds a Bachelor of-->
+                                <!--            commerce and a Master's degree with-->
+                                <!--            distinction from the University of Kolhaan, Jharkhand, India.-->
+
+                                <!--        </div>-->
+                                <!--    </div>-->
+                                <!--</div>-->
+                                <div class="tab-pane" id="tab_team_2">
+                                    <div class="row member">
+                                        <div class="col-12 col-sm-12 col-md-12 py-1">
+                                            <div class="member-image">
+                                                <img src="{{ asset('assets/img/team/Anup.jpeg') }}" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3 class="full-name">Anup Raj Srivastav</h3>
+                                                <span class="speciality">Sales Manager/ Air Cargo</span>
+                                            </div>
+                                            Anup Raj Srivastav is a seasoned professional with more than twelve years of
+                                            expertise in marketing, communication and client servicing. He has had prior
+                                            experience spanning multiple industries such as event planning and
+                                            management, advertising, public relations, microfinance and banking. In his
+                                            leisure time, Anup loves travelling, music, photography and cooking.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab_team_3">
+                                    <div class="row member">
+                                        <div class="col-12 col-sm-12 col-md-12 py-1">
+                                            <div class="member-image">
+                                                <img src="{{ asset('assets/img/team/Ruby.jpeg') }}" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3 class="full-name">Ruby Shakya</h3>
+                                                <span class="speciality">Pricing Manager</span>
+                                            </div>
+                                            Ruby Shakya leads the pricing team of S. R. Logistics for over seven years.
+                                            In her managerial capacity, she makes sure to secure the best price for the
+                                            customers by negotiating rates with liners and their counterparts. She has
+                                            specialized knowledge and skill in negotiating costs and finalization of
+                                            payment terms with vendors abroad which helps to connect vendors to sales
+                                            and customer service departments. Additionally Ruby undertakes projects and
+                                            tasks involving research and development, contracts and trade terms to
+                                            identify the best service vendors globally that helps to optimize the
+                                            company's operations.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab_team_4">
+                                    <div class="row member">
+                                        <div class="col-12 col-sm-12 col-md-12 py-1">
+                                            <div class="member-image">
+                                                <img src="{{ asset('assets/img/team/Ram.jpeg') }}" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3 class="full-name">Ram Kumar Koirala</h3>
+                                                <span class="speciality">Accounts</span>
+                                            </div>
+                                            Ram Kumar Koirala is an experienced accountants professional with expertise
+                                            in ensuring the accuracy of financial documents as well as their compliance
+                                            with relevant laws and regulations, preparation and maintenance of financial
+                                            reports and tax returns. Additionally, his expertise extends to areas such
+                                            as evaluation of financial operations to recommend best-practices,
+                                            identifying issues and strategizing solutions that help organizations to run
+                                            efficiently as well as offering guidance on cost reduction, revenue
+                                            enhancement, and profit maximization. Ram has also conducted various
+                                            forecasting and risk analysis assessments for inter-organizational projects.
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="row ">
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-12 p-1">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="#" class="weblink"><img src="{{ asset('assets/logo2.png') }}"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-7 col-12 p-1">
+                    <div class="footer-widget ">
+                        <div class="footer-title">Company Details</div>
+
+                        <ul class="list-unstyled details">
+                            <li class="mb-3"><a><i class="fa fa-map-marker-alt text-white mr-2 "></i>Metro Park
+                                    Building, Lazimpat, Kathmandu</a></li>
+                            {{-- <li class="mb-3"><a><i class="fa fa-phone-alt text-white mr-2 "></i>+977-1-4005233, +977-1-4005234</a></li> --}}
+                            <li class="mb-3"><a href="tel:+977-1-5970430"><i
+                                        class="fa fa-phone-alt text-white mr-2 "></i>+977-1-5970430</a></li>
+                            <li class="mb-3"><a href="https://wa.me/message/PNQXS423AL7UB1?src=qr"><i
+                                        class="fab fa-whatsapp text-white mr-2"
+                                        style="font-size:19px"></i>+977-9801908931</a></li>
+                            <li class="mb-3"><a href="mailto:info@srlogistics.com.np"><i
+                                        class="fa fa-envelope text-white mr-2 "></i>info@srlogistics.com.np</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-2 col-sm-6 col-12 p-1">
+                    <div class="footer-widget ">
+                        <div class="footer-title">Company</div>
+                        <ul class="list-unstyled">
+                            <li><a class="weblink" href="#abt">About</a></li>
+                            <li><a class="weblink" href="#ser">Services</a></li>
+                            <li><a class="weblink" href="#team">Team Members</a></li>
+                            <li><a class="weblink" href="#con">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 ">
+                    <div class="footer-widget ">
+                        <div class="footer-title">Social</div>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Whatsapp</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+            <div class="row ">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center ">
+                    <div class="tiny-footer">
+                        <p>Copyright © All Rights Reserved 2021 | SR Logistics</p>
+                        <p>
+                            Promoted By
+                            <a href="https://groupiig.com/"><strong>Innovative Investment Group</strong></a>
+                        </p>
+
+                        <p>
+                            IT Partner
+                            <a href="https://www.nextgeekers.com.np/"><strong>Next Geekers Pvt. Ltd.</strong></a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    @include('partials.alerts')
+<script>
+        $(document).ready(function() {
+    var $modalElement = $('#quoteModal');
+
+    $modalElement.on("shown.bs.modal", function() {
+        console.log("Modal opened:", $modalElement.attr('id'));
+        captchaShowForQuote(); // Updated function
+    });
+
+    $modalElement.on("hidden.bs.modal", function() {
+        console.log("Modal closed:", $modalElement.attr('id'));
+        captchaRemoveForQuote(); // Updated function
+    });
+
+    function captchaShowForQuote() {
+        // $("#quoteCap").show();
+        $("#contactCaptchaDiv").empty();
+        $('#quoteCaptchaDiv').html(`
+            <div class="form-label-group col-md-12">
+                <div class="input-group" id="quoteCaptchaWrapper">
+                    <input type="text" class="form-control" placeholder="Captcha" id="quoteCaptcha"
+                        name="quoteCaptcha" autocomplete="off" style="width: 30%" value="{{ old('quoteCaptcha') }}">
+                    <label for="quoteCaptcha">Captcha</label>
+                    <div class="input-group-append">
+                        <span class="input-group-text p-0 border-0" style="background-color: #ffffff !important;">
+                            @captcha
+                        </span>
+                    </div>
+                </div>
+            </div>
+        `);
+    }
+
+    // function captchaRemoveForQuote() {
+    //     $('#quoteCaptchaDiv').empty();
+    // }
+});
+</script>
+
+</body>
+
+</html>
